@@ -312,6 +312,7 @@ const obj6 = { key1, key2 };
 Bu örneklerle, iki elemanlı bir objenin farklı şekillerde nasıl oluşturulabileceğini göstermiş olduk. Bu farklı yöntemler, programlama stilinize ve kullanım durumunuza göre değişebilir.
 
 ## 17. 2 elemanlı bir objenin key ve value değerlerinin karakter sayısı ile 2 farklı döngü methodu kullanarak yeni bir obje oluşturunuz
+```javascript
 // İlk olarak, verilen 2 elemanlı objeyi oluşturalım
 const obj = { key1: 'value1', key2: 'value2' };
 
@@ -330,7 +331,7 @@ Object.entries(obj).forEach(([key, value]) => {
     newObj2[key] = length;
 });
 console.log("Yeni obje (Object.entries()):", newObj2);
-
+```
 ## 18. Cookie, local storage ve session storage farkını tablo yapınız
 
 | Özellikler          | Cookie                                    | Local Storage                            | Session Storage                      |
